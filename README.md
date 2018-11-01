@@ -129,6 +129,8 @@ The shareHost configuration is designed to be pointed at wherever the leafApi en
 
 Additional ports can be added as desired, samples can be found at the end of base.sql.  If you're not comfortable with the MySQL command line, I highly suggest MySQL Workbench or a similar piece of software (I use datagrip!).  Your root MySQL password can be found in `/root/.my.cnf`
 
+A note on defaults: While the SQL config database has exchange and wallet minimum settings for payouts, there is a hardcoded payout threshold per miner of 0.30 XMR in the xmr.js payment system file.
+
 Final Manual Steps
 ------------------
 Until the main frontend is done, we suggest running the following SQL line:
